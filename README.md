@@ -20,7 +20,12 @@ Este projeto foi desenvolvido para praticar lógica de programação utilizando 
 - Eventos (`addEventListener`)
 - `toUpperCase()`
 - Lógica de busca
+## 🖼️ Preview
 
+<img width="1889" height="963" alt="image" src="https://github.com/user-attachments/assets/117f3539-c1b0-46e0-941c-30238062897d" />
+
+
+---
 ## Fluxo da aplicação
 
 1. O usuário digita um nome.
