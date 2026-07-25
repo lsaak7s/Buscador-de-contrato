@@ -1,6 +1,7 @@
 # 🔎 Busca de Contatos com JavaScript
 
 Este projeto foi desenvolvido para praticar lógica de programação utilizando JavaScript puro.
+⚙️ Este projeto está em desenvolvimento e recebe melhorias contínuas à medida que avanço nos estudos de JavaScript.
 
 ## O que foi desenvolvido
 
