@@ -100,7 +100,37 @@ const contatos = [
         nome: "BEATRIZ",
         telefone: "4586318120",
     },
-];/*
+];
+/*
+function buscar() {
+    //O interupitor
+    let encontrou = false;
+    // e nessesario para pode ele pode usar o valor
+    const valordoinput = input.value;
+    let i = 0
+    while (i < contatos.length) {
+        const element = contatos[i];
+        i++
+        //aqui ele ja esta verificando e deixando em caixa alta
+        if (element.nome.toUpperCase() === valordoinput.toUpperCase()) {
+
+            resultado.innerHTML =
+                "Nome: " + element.nome + "<br>" +
+                "Telefone: " + element.telefone;
+            // sinalizou para o interrupitor que deu certo
+            encontrou = true;
+            // Se achou ele pausa
+            break;
+        }
+
+    }
+    //verifica !SE! teve mudança
+    if (!encontrou) {
+        resultado.innerHTML = "Contato não encontrado";
+    }
+}
+
+
 function buscar() {
     //O interupitor
     let encontrou = false;
@@ -124,7 +154,7 @@ function buscar() {
     if (!encontrou) {
         resultado.innerHTML = "Contato não encontrado";
     }
-}*/
+}
 function buscar() {
     //O interupitor
     let encontrou = false;
@@ -146,4 +176,4 @@ function buscar() {
     }
 
 
-}
+}*/
