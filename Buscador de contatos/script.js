@@ -100,20 +100,21 @@ const contatos = [
         nome: "BEATRIZ",
         telefone: "4586318120",
     },
-]; function buscar() {
+];
+
+function buscar() {
     //O interupitor
     let encontrou = false;
-    // e nessesario para pode ele pode usar o valor
+
+    // E nessesario para pode ele vai usar
     const valordoinput = input.value;
     let i = 0
+
+    //aqui ele ja esta verificando e deixando em caixa alta
     do {
+        const element = contatos[i]; 
 
-    } while (i < contatos.length) {
-        const element = contatos[i];
-        i++
-        //aqui ele ja esta verificando e deixando em caixa alta
         if (element.nome.toUpperCase() === valordoinput.toUpperCase()) {
-
             resultado.innerHTML =
                 "Nome: " + element.nome + "<br>" +
                 "Telefone: " + element.telefone;
@@ -121,15 +122,21 @@ const contatos = [
             encontrou = true;
             // Se achou ele pausa
             break;
-        }
 
+        } i++;
 
     }
+    while (i < contatos.length) {
+
+    }
+
     //verifica !SE! teve mudança
     if (!encontrou) {
         resultado.innerHTML = "Contato não encontrado";
     }
+
 }
+
 /*
 function buscar() {
     //O interupitor
